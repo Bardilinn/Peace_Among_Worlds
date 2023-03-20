@@ -1,0 +1,116 @@
+.nav_header{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(45deg, #ffd857, #fff59e);
+}
+
+.logo_tintin{
+    width: 10%;
+    height: 10%;
+}
+
+.overline{
+    width: 75%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hover_links{
+    font-size: 1.4em;
+    color: rgb(88, 51, 21);
+    text-decoration: none;
+}
+
+.hover_links:hover{
+    background-color: rgb(255, 216, 87);
+}
+
+.box_prez{
+    margin-top: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_prez{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 60%;
+    margin-top: 5%;
+    margin-left: 2%;
+    padding: 2%;
+    border: 2px solid;
+    border-radius: 30px;
+    border-color: rgb(88, 51, 21);
+    color: rgb(88, 51, 21);
+}
+
+.main_title{
+    font-size: 1.7em;
+    font-weight: 800;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.intro{
+    font-size: 1.2em;
+    font-weight: 800;
+    text-align: justify;
+}
+
+.first_img{ 
+    width: 50%;
+}
+
+ .albums{
+    margin-top: 10%;
+ }
+
+ .title_section{
+    text-decoration: underline;
+    color: rgb(88, 51, 21);
+    padding-bottom: 2%;
+    }
+
+ .books{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+ }
+
+ .box{
+    width: 100%;
+ }
+
+ .box:hover{
+    opacity: 70%; 
+ }
+
+.board{
+    margin-top: 7%;
+    }
+
+.board_items{
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: auto;
+    color: rgb(88, 51, 21);
+    }
+
+.board_title{
+    padding: 5%;
+    text-decoration: underline;
+    font-size: 2em;
+    color: rgb(88, 51, 21);
+    }
+
+.board_total{
+    color: rgb(88, 51, 21);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+}
