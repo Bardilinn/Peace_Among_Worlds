@@ -87,9 +87,12 @@
     text-decoration: underline;
     color: rgb(88, 51, 21);
     padding-bottom: 2%;
+    padding-left: 2%;
     }
 
  .books{
+    margin-left: 2%;
+    margin-right: 2%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
