@@ -3,10 +3,19 @@
     src: url('/Font/Book\ Antiqua\ Font.ttf') format('truetype');
 }
 
-html{
+body{
+    margin: 0;
     width: 100%;
     font-family: 'Book Antiqua';
     background-color: rgb(224, 200, 112);
+}
+
+header{
+    width: 98%;
+}
+
+main, section{
+    width: 100%;
 }
 
 

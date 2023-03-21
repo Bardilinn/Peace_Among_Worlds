@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Book Antiqua';
+    src: url('/Font/Book\ Antiqua\ Font.ttf') format('truetype');
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    font-family: 'Book Antiqua';
+    background-color: rgb(238, 235, 226);
+}
+
+header{
+    width: 98%;
+}
+
+main, section{
+    width: 100%;
+}
+
+
+
+/* Head Navigation */
+
+
+.nav_header{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(45deg, #eeebe2, #faf4b9);
+}
+
+.logo_tintin{
+    width: 10%;
+    height: 10%;
+}
+
+.overline{
+    width: 75%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hover_links{
+    font-size: 1.4em;
+    color: rgb(88, 51, 21);
+    text-decoration: none;
+}
+
+.hover_links:hover{
+    background-color: rgb(255, 216, 87);
+}
