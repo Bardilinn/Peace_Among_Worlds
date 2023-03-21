@@ -23,6 +23,12 @@ span{
     font-weight: bold;
 }
 
+
+
+/* Head Navigation */
+
+
+
 .nav_header{
     display: flex;
     flex-direction: row;
@@ -52,6 +58,11 @@ span{
 .hover_links:hover{
     background-color: #9bcaad31;
 }
+
+
+
+/* First Part */
+
 
 .first_part{
     display: flex;
@@ -129,7 +140,7 @@ span{
 
 
 
-/* second part */
+/* Second Part */
 
 
 .second_part{
@@ -170,6 +181,11 @@ span{
     text-align: justify;
 }
 
+
+
+/* Third Part */
+
+
 .third_part{
     margin-left: 2%;
     display: flex;
@@ -205,6 +221,11 @@ span{
     width: 70%;
     text-align: justify;
 }
+
+
+
+/* Back Button */
+
 
 .back{
         display: flex;

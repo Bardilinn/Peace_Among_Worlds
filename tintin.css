@@ -1,3 +1,6 @@
+/* Head Navigation */
+
+
 .nav_header{
     display: flex;
     flex-direction: row;
@@ -27,6 +30,11 @@
 .hover_links:hover{
     background-color: rgb(255, 216, 87);
 }
+
+
+
+/* Presentation Tintin */
+
 
 .box_prez{
     margin-top: 2%;
@@ -66,6 +74,11 @@
     width: 50%;
 }
 
+
+
+/* Albums */
+
+
  .albums{
     margin-top: 10%;
  }
@@ -89,6 +102,11 @@
  .box:hover{
     opacity: 70%; 
  }
+
+
+
+/* Tintin Chronology */
+
 
 .board{
     margin-top: 7%;

@@ -9,6 +9,11 @@ html{
     background-color: rgb(255, 216, 87);
 }
 
+
+
+/* Head Navigation */
+
+
 .nav_header{
     display: flex;
     flex-direction: row;
@@ -38,6 +43,11 @@ html{
 .hover_links:hover{
     background-color: rgb(255, 216, 87);
 }
+
+
+
+/* Album Presentation */
+
 
 .title{
     color: rgb(88, 51, 21);
@@ -72,6 +82,11 @@ h2{
     margin-top: 15%;
     margin-bottom: 5%;
 }
+
+
+
+/* Drawings */
+
 
 .first_drawing{
     margin-bottom: 5%;
