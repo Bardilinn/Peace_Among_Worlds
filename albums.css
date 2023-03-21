@@ -6,7 +6,7 @@
 html{
     width: 100%;
     font-family: 'Book Antiqua';
-    background-color: rgb(255, 216, 87);
+    background-color: rgb(224, 200, 112);
 }
 
 
@@ -17,7 +17,7 @@ html{
 .nav_header{
     display: flex;
     flex-direction: row;
-    background: linear-gradient(45deg, #ffd857, #fff59e);
+    background: linear-gradient(45deg, #e0c870, #fff59e);
 }
 
 .logo_tintin{
