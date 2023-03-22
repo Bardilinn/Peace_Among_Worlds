@@ -107,3 +107,29 @@ main, section{
     font-style: italic;
     text-align: center;
 }
+
+
+
+/* Milou */
+
+
+.character3{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+.haddock_title{
+    text-align: center;
+}
+
+.haddock_prez{
+    padding-left: 2%;
+    text-align: justify;
+}
+
+.haddock_quote{
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+}
