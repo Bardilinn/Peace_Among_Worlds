@@ -19,6 +19,10 @@ main, section{
     width: 98%;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-size: 1.5em;
+    text-align: center;
+}
 
 
 /* Head Navigation */
@@ -51,7 +55,7 @@ main, section{
 }
 
 .hover_links:hover{
-    background-color: rgb(255, 216, 87);
+    background-color: rgb(238, 235, 226);
 }
 
 
@@ -62,10 +66,6 @@ main, section{
 .character1{
     display: flex;
     margin-left: 2%;
-}
-
-.tintin_title{
-    text-align: center;
 }
 
 .tintin_prez{
@@ -90,10 +90,6 @@ main, section{
     margin-top: 10%;
 }
 
-.milou_title{
-    text-align: center;
-}
-
 .milou_prez{
     text-align: justify;
 }
@@ -110,7 +106,7 @@ main, section{
 
 
 
-/* Milou */
+/* Capitaine Haddock */
 
 
 .character3{
@@ -119,16 +115,80 @@ main, section{
     margin-top: 10%;
 }
 
-.haddock_title{
-    text-align: center;
-}
-
 .haddock_prez{
     padding-left: 2%;
     text-align: justify;
 }
 
 .haddock_quote{
+    margin-left: 2%;
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+/* Dupond et Dupont */
+
+
+.character4{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+.dupondt_prez{
+    text-align: justify;
+}
+
+.dupondt_quote{
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+/* Professeur Tournesol */
+
+
+.character5{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+.tournesol_prez{
+    padding-left: 2%;
+    text-align: justify;
+}
+
+.tournesol_quote{
+    margin-left: 2%;
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+/* Bianca Castafiore */
+
+
+.character6{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+.castafiore_prez{
+    padding-left: 2%;
+    text-align: justify;
+}
+
+.castafiore_quote{
+    margin-left: 2%;
     font-size: 1.5em;
     font-style: italic;
     text-align: center;
