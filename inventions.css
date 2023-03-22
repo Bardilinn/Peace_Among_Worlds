@@ -15,7 +15,7 @@ header{
 }
 
 main, section{
-    width: 100%;
+    width: 98%;
 }
 
 
@@ -110,7 +110,6 @@ h1 span{
     flex-direction: column;
     width: 20%;
     height: 40%;
-    margin-right: 2%;
 }
 
 .box1_text2{
@@ -147,7 +146,6 @@ h1 span{
     display: flex;
     flex-direction: column;
     width: 25%;
-    margin-right: 2%;
 }
 
 
@@ -201,6 +199,7 @@ h1 span{
 
 .box4_div2{
    display: flex;
+   justify-content: end;
 }
 
 .supercolor{

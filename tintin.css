@@ -36,6 +36,12 @@
 /* Presentation Tintin */
 
 
+.quote{
+    padding: 5%;
+    font-size: 2em;
+    color: rgb(88, 51, 21);
+}
+
 .box_prez{
     margin-top: 2%;
     margin-right: 2%;

@@ -7,6 +7,7 @@ body{
     margin: 0;
     width: 100%;
     font-family: 'Book Antiqua';
+    color: rgb(88, 51, 21);
     background-color: rgb(238, 235, 226);
 }
 
@@ -15,7 +16,7 @@ header{
 }
 
 main, section{
-    width: 100%;
+    width: 98%;
 }
 
 
@@ -26,7 +27,7 @@ main, section{
 .nav_header{
     display: flex;
     flex-direction: row;
-    background: linear-gradient(45deg, #eeebe2, #faf4b9);
+    background: linear-gradient(45deg, #eeebe2, #ddd6a4);
 }
 
 .logo_tintin{
@@ -51,4 +52,58 @@ main, section{
 
 .hover_links:hover{
     background-color: rgb(255, 216, 87);
+}
+
+
+
+/* Tintin */
+
+
+.character1{
+    display: flex;
+    margin-left: 2%;
+}
+
+.tintin_title{
+    text-align: center;
+}
+
+.tintin_prez{
+    padding-left: 2%;
+    text-align: justify;
+}
+
+.tintin_quote{
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+/* Milou */
+
+
+.character2{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+.milou_title{
+    text-align: center;
+}
+
+.milou_prez{
+    text-align: justify;
+}
+
+.milou{
+    width: 40%;
+}
+
+.milou_quote{
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
 }
