@@ -24,6 +24,16 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
 }
 
+.symbols{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    color: rgb(206, 172, 24);
+}
+
+
 
 /* Head Navigation */
 
