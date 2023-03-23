@@ -7,7 +7,7 @@ body{
     margin: 0;
     width: 100%;
     font-family: 'Book Antiqua';
-    background-color: rgb(255, 216, 87);
+    background-color: rgb(245, 209, 95); /*255, 216, 87*/
 }
 
 header{

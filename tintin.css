@@ -4,7 +4,7 @@
 .nav_header{
     display: flex;
     flex-direction: row;
-    background: linear-gradient(45deg, #ffd857, #fff59e);
+    background: linear-gradient(45deg, #f5d15f, #fff59e);
 }
 
 .logo_tintin{
@@ -28,7 +28,7 @@
 }
 
 .hover_links:hover{
-    background-color: rgb(255, 216, 87);
+    background-color: rgb(245, 209, 95);
 }
 
 
@@ -40,6 +40,7 @@
     padding: 5%;
     font-size: 2em;
     color: rgb(88, 51, 21);
+    text-align: center;
 }
 
 .box_prez{
