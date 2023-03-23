@@ -115,6 +115,10 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 10%;
 }
 
+.haddock{
+    width: 30%;
+}
+
 .haddock_prez{
     padding-left: 2%;
     text-align: justify;
@@ -142,6 +146,10 @@ h1, h2, h3, h4, h5, h6{
     text-align: justify;
 }
 
+.dupondt{
+    width: 30%;
+}
+
 .dupondt_quote{
     font-size: 1.5em;
     font-style: italic;
@@ -157,6 +165,10 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     margin-left: 2%;
     margin-top: 10%;
+}
+
+.tournesol{
+    width: 30%;
 }
 
 .tournesol_prez{
@@ -187,7 +199,38 @@ h1, h2, h3, h4, h5, h6{
     text-align: justify;
 }
 
+.castafiore{
+    width: 40%;
+}
+
 .castafiore_quote{
+    margin-left: 2%;
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+/* Séraphin Lampion */
+
+
+.character7{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+.lampion{
+    width: 50%;
+}
+
+.lampion_prez{
+    padding-left: 2%;
+    text-align: justify;
+}
+
+.lampion_quote{
     margin-left: 2%;
     font-size: 1.5em;
     font-style: italic;
