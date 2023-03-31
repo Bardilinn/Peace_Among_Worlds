@@ -1,0 +1,25 @@
+/* Drawings */
+
+
+.first_drawing{
+    margin-bottom: 5%;
+    padding-left: 30%;  
+}
+
+.second_drawing{
+    margin-left: 5%;
+    margin-bottom: 8%;
+}
+
+.third_drawing{
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+
+.symbols{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+    color: rgb(119, 9, 9);
+}
