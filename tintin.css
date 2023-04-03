@@ -9,6 +9,8 @@
     top: 0;
     right: 0;
     left: 0;
+    border-bottom: 0.2em solid rgb(88, 51, 21);
+    z-index: 1;
 }
 
 .logo_tintin{
@@ -84,6 +86,7 @@
 
 .first_img{ 
     width: 50%;
+    border-radius: 30px;
 }
 
 
