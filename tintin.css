@@ -185,7 +185,7 @@
 .footer_right{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     position: relative;
 }
 
@@ -198,3 +198,4 @@
     top: 50%;
     max-width: 7%;
 }
+

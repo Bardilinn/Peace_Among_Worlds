@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     flex-direction: row;
     background: linear-gradient(45deg, #eeebe2, #ddd6a4);
+    border-bottom: 0.2em solid rgb(88, 51, 21);
 }
 
 .logo_tintin{
