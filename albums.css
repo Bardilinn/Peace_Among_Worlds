@@ -129,6 +129,7 @@ h2{
     display: flex;
     justify-content: flex-end;
     position: relative;
+    padding-right: 5%;
 }
 
 .box_links{

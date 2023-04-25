@@ -258,7 +258,7 @@ h1 span{
 .rights{
     padding-left: 22%;
     padding-top: 8%;
-
+    color: rgb(11, 88, 41);
 }
 
 .footer_right{
@@ -266,6 +266,7 @@ h1 span{
     display: flex;
     justify-content: flex-end;
     position: relative;
+    padding-right: 5%;
 }
 
 .box_links{

@@ -179,13 +179,14 @@
 .rights{
     padding-left: 22%;
     padding-top: 8%;
-
+    color: #583315;
 }
 
 .footer_right{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    padding-right: 5%;
     position: relative;
 }
 
@@ -197,5 +198,6 @@
     position: absolute;
     top: 50%;
     max-width: 7%;
+    padding: 2%;
 }
 

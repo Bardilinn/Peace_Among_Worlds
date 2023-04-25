@@ -281,8 +281,9 @@ h1, h2, h3, h4, h5, h6{
 .footer_right{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     position: relative;
+    padding-right : 5%;
 }
 
 .box_links{
