@@ -201,3 +201,69 @@
     padding: 2%;
 }
 
+@media screen and (max-width : 425px) {
+
+    .logo_tintin {
+        width: 29%;
+    }
+    .overline {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .hover_links {
+        font-size: 0.9rem;
+    }
+    .quote {
+        font-size: 1.3rem;
+        padding-top: 40%;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .box_prez {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .text_prez {
+        width: 80%;
+        margin-bottom: 10%;
+    }
+    .main_title {
+        font-size: 1.5rem;
+    }
+    .intro {
+        font-size: 1rem;
+    }
+    .first_img {
+        margin-top: 3%;
+        width: 90%;
+    }
+    .title_section {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .books {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .board {
+        padding-top: 10%;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .board_title {
+        font-size: 1.5rem;
+    }
+    .board_total {
+        font-size: 1.5rem;
+    }
+    .footer_logo {
+        width: 30%;
+    }
+    .rights {
+        text-align: justify;
+        margin-left: 10%;
+        font-size: 0.7rem;
+    }
+    .footer_right {
+        width: 40%;
+    }
+}
