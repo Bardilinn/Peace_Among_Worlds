@@ -331,6 +331,10 @@ h1, h2, h3, h4, h5, h6{
     .lampion {
         width: 100%;
     }
+    .symbols {
+        font-size: 1rem;
+        padding-left: 3%;
+    }
     .footer_logo {
         width: 30%;
     }
