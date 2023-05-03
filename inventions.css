@@ -278,3 +278,98 @@ h1 span{
     top: 50%;
     max-width: 7%;
 }
+
+
+
+/* Responsive Features */
+
+
+@media screen and (max-width : 425px) {
+
+    .logo_tintin {
+        width: 29%;
+    }
+    .overline {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .hover_links {
+        font-size: 0.9rem;
+    }
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 20%;
+    }
+    .box1 {
+        flex-wrap: wrap;
+    }
+    .roquet {
+        width: 45%;
+    }
+    .box1_text1{
+        width: 45%;
+    }
+    .picture {
+        display: none;
+    }
+    .rose_bianca {
+        margin-top: 20%;
+        margin-left: 3%;
+        margin-bottom: 5%;
+        flex-direction: row;
+    }
+    .box1_text2 {
+        padding-left: 30%;
+        text-align: center;
+    }
+    .box2 {
+        flex-direction: column;
+    }
+    .machine, .n14 {
+       flex-direction: column;
+       width: fit-content;
+       padding-right: 10%;
+       margin-top: 10%;
+    }
+    .box3 {
+        margin-top: 20%;
+        flex-direction: column;
+    }
+    .ultrasound {
+        width: 100%;
+    }
+    .box3_text {
+        width: fit-content;
+    }
+    .box4 {
+        flex-direction: column;
+    }
+    .roller {
+        width: 60%;
+    }
+    .box4_text1 {
+        width: fit-content;
+    }
+    .box4_div2 {
+        margin-top: 12%;
+        flex-direction: column;
+    }
+    .box4_text2 {
+        width: fit-content;
+        margin: 0%;
+    }
+    .next {
+        font-size: 2rem;
+    }
+    .footer_logo {
+        width: 30%;
+    }
+    .rights {
+        text-align: justify;
+        margin-left: 10%;
+        font-size: 0.7rem;
+    }
+    .footer_right {
+        width: 40%;
+    }
+}

@@ -201,6 +201,11 @@
     padding: 2%;
 }
 
+
+
+/* Responsive Features */
+
+
 @media screen and (max-width : 425px) {
 
     .logo_tintin {

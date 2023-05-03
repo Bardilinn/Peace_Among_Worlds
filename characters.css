@@ -295,3 +295,51 @@ h1, h2, h3, h4, h5, h6{
     top: 50%;
     max-width: 7%;
 }
+
+
+
+/* Responsive Features */
+
+
+@media screen and (max-width : 425px) {
+
+    .logo_tintin {
+        width: 29%;
+    }
+    .overline {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .hover_links {
+        font-size: 0.9rem;
+    }
+    .character1, .character3, .character5, .character7 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .character2, .character4, .character6 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .milou, .haddock, .dupondt, .tournesol {
+        width: 80%;
+    }
+    .castafiore {
+        width: 90%;
+    }
+    .lampion {
+        width: 100%;
+    }
+    .footer_logo {
+        width: 30%;
+    }
+    .rights {
+        text-align: justify;
+        margin-left: 10%;
+        font-size: 0.7rem;
+    }
+    .footer_right {
+        width: 40%;
+    }
+}
