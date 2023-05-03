@@ -252,6 +252,7 @@
     .board {
         padding-top: 10%;
         width: 80%;
+        margin: 0 auto;
     }
     .board_title {
         font-size: 1.5rem;
