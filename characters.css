@@ -339,7 +339,16 @@ h1, h2, h3, h4, h5, h6{
         margin-left: 10%;
         font-size: 0.7rem;
     }
+    .footer_left {
+        width: 70%;
+    }
     .footer_right {
-        width: 40%;
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .social_medias {
+        max-width: 12%;
     }
 }

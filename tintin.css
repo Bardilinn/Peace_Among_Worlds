@@ -257,6 +257,9 @@
     .board_title {
         font-size: 1.5rem;
     }
+    th, td {
+        font-size: 0.7rem;
+    }
     .board_total {
         font-size: 1.5rem;
     }
@@ -268,7 +271,16 @@
         margin-left: 10%;
         font-size: 0.7rem;
     }
+    .footer_left {
+        width: 70%;
+    }
     .footer_right {
-        width: 40%;
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .social_medias {
+        max-width: 12%;
     }
 }

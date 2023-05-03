@@ -369,7 +369,16 @@ h1 span{
         margin-left: 10%;
         font-size: 0.7rem;
     }
+    .footer_left {
+        width: 70%;
+    }
     .footer_right {
-        width: 40%;
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .social_medias {
+        max-width: 12%;
     }
 }
