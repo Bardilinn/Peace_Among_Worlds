@@ -288,3 +288,156 @@ span{
     top: 50%;
     max-width: 7%;
 }
+
+
+
+/* Responsive Features */
+
+
+@media screen and (max-width : 425px) {
+
+    .logo_tintin {
+        width: 29%;
+    }
+    .overline {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .hover_links {
+        font-size: 0.9rem;
+    }
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 20%;
+    }
+    .first_part {
+       display: flex;
+       flex-direction: row-reverse;
+       flex-wrap: wrap; 
+      }
+    .box1, .box2 {
+        width: 100%;
+        justify-content: space-around; 
+    }
+    .roquet {
+        opacity: 0.5;
+        width: 90%;
+        padding-right: 20%;
+    }
+    .box1_text3 {
+        display: none;
+    }
+    .box2_div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-top: 5%;
+    }
+    .box2_text1 {
+        width: 90%;
+        text-align: justify;
+    }
+    .pill {
+        width: 90%;
+    }
+    .box2_div2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column
+    }
+    .box2_text2 {
+        width: 80%;
+        margin: auto;
+        text-align: justify;
+        padding-right: 15%;
+    }
+    .scuba {
+        width: 86%;
+    }
+    .second_part {
+        flex-direction: column;
+    }
+    .box3 {
+        flex-direction: column;
+    }
+    .gaz {
+        width: 90%;
+        margin: auto;
+    }
+    .box3_text {
+        width: 87%;
+        margin: auto;
+        text-align: justify;
+        padding-top: 3%;
+    }
+    .box4 {
+        flex-direction: column;
+    }
+    .bed {
+        width: 85%;
+        margin: auto;
+        padding-top: 5%;
+    }
+    .box4_text {
+        width: 85%;
+        margin: auto;
+        text-align: justify;
+        padding-top: 3%;
+    }
+    .third_part {
+        flex-direction: column;
+    }
+    .box5 {
+        flex-direction: column-reverse;
+    }
+    .tank {
+        width: 90%;
+        margin: auto;
+        padding-top: 5%;
+    }
+    .box5_text {
+        width: 87%;
+        margin: auto;
+        padding-top: 3%;
+        padding-right: 2%;
+        text-align: justify;
+    }
+    .box6 {
+        flex-direction: column;
+    }
+    .submarine {
+        width: 90%;
+        margin: auto;
+        padding-top: 13%;
+    }
+    .box6_text {
+        width: 87%;
+        margin: auto;
+        padding-top: 3%;
+        padding-right: 3%;
+        text-align: justify;
+    }
+   .back {
+        font-size: 2rem;
+    }
+    .footer_logo {
+        width: 30%;
+    }
+    .rights {
+        text-align: justify;
+        margin-left: 10%;
+        font-size: 0.6rem;
+    }
+    .footer_left {
+        width: 70%;
+    }
+    .footer_right {
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .social_medias {
+        max-width: 12%;
+    }
+}
