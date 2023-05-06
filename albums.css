@@ -141,3 +141,55 @@ h2{
     top: 50%;
     max-width: 7%;
 }
+
+
+
+/* Responsive Features */
+
+
+@media screen and (max-width : 425px) {
+
+    .logo_tintin {
+        width: 29%;
+    }
+    .overline {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .hover_links {
+        font-size: 0.9rem;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    .prez {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .flex_cover {
+        margin-bottom: 10%;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .footer_logo {
+        width: 30%;
+    }
+    .rights {
+        text-align: justify;
+        margin-left: 10%;
+        font-size: 0.6rem;
+    }
+    .footer_left {
+        width: 70%;
+    }
+    .footer_right {
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .social_medias {
+        max-width: 12%;
+    }
+}
