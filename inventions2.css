@@ -320,12 +320,12 @@ span{
         justify-content: space-around; 
     }
     .roquet {
-        opacity: 0.5;
-        width: 90%;
         padding-right: 20%;
+        padding-top: 10%;
     }
     .box1_text3 {
-        display: none;
+        position: relative;
+        padding-bottom: 70%;
     }
     .box2_div {
         display: flex;
