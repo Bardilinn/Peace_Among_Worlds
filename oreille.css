@@ -27,3 +27,27 @@
     margin-top: 10%;
     color: rgb(119, 9, 9);
 }
+
+/* Responsive Features */
+
+
+
+@media screen and (max-width : 425px) {
+    .first_drawing {
+        width: 80%;
+        padding-left: 10%;
+        margin: 0;
+    }
+    .second_drawing {
+        width: 300px;
+        margin-left: 15%;
+        margin-bottom: 10%;
+    }
+    .third_drawing {
+        width: 80%;
+    }
+    .symbols {
+        font-size: 1rem;
+    }
+}
+
