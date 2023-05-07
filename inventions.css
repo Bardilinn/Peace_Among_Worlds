@@ -325,14 +325,20 @@ h1 span{
     .box2 {
         flex-direction: column;
     }
-    .machine, .n14 {
+    .machine {
        flex-direction: column;
        width: fit-content;
        padding-right: 10%;
        margin-top: 10%;
     }
+    .n14{
+        flex-direction: column-reverse;
+        width: fit-content;
+        padding-right: 10%;
+        margin-top: 10%;
+    }
     .box3 {
-        margin-top: 20%;
+        margin-top: 10%;
         flex-direction: column;
     }
     .ultrasound {
