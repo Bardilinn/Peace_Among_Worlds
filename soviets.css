@@ -33,13 +33,13 @@
 @media screen and (max-width : 425px) {
     p.fourth_cover {
         border: 1px solid #583315;
-        width: 380px;
+        width: 350px;
         height: 300px;
         overflow: auto;
     }
     .second_drawing {
         width: 300px;
-        margin-left: 15%;
+        margin-left: 10%;
         margin-bottom: 10%;
     }
     .third_drawing {
