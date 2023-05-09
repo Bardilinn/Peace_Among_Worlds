@@ -33,7 +33,7 @@
 @media screen and (max-width : 425px) {
     p.fourth_cover {
         border: 1px solid #583315;
-        width: 350px;
+        width: 300px;
         height: 300px;
         overflow: auto;
     }
