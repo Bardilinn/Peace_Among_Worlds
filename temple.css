@@ -1,0 +1,49 @@
+/* Drawings */
+
+
+.first_drawing{
+    width: 40%;
+    margin-bottom: 5%;
+    padding-left: 30%;
+}
+
+.second_drawing{
+    margin-left: 5%;
+    width: 40%;
+}
+
+.third_drawing{
+    margin-bottom: 2%;
+    margin-left: 10%;
+}
+
+.symbols{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+    color: rgb(119, 9, 9);
+}
+
+
+/* Responsive Features */
+
+
+
+@media screen and (max-width : 425px) {
+    .first_drawing {
+        width: 80%;
+        padding-left: 10%;
+    }
+    .second_drawing {
+        width: 300px;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+    .third_drawing {
+        width: 80%;
+    }
+    .symbols {
+        font-size: 1rem;
+    }
+}
