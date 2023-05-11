@@ -2,9 +2,9 @@
 
 
 .first_drawing{
-    width: 60%;
+    width: 70%;
     margin-bottom: 5%;
-    padding-left: 20%;
+    padding-left: 15%;
 }
 
 .second_drawing{
@@ -13,7 +13,8 @@
 }
 
 .third_drawing{
-    margin-bottom: 2%;
+    width: 40%;
+    margin-bottom: 17%;
     margin-left: 10%;
 }
 
