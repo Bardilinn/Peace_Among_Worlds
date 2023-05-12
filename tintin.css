@@ -37,7 +37,14 @@
     background-color: rgb(255, 216, 87);
 }
 
-
+.milou{
+    width: 67px;
+    height: 55px;
+    position: absolute;
+    top: 78px;
+    left: 57%;
+    transform: translateX(400px);
+}
 
 /* Presentation Tintin */
 
@@ -217,6 +224,9 @@
     }
     .hover_links {
         font-size: 0.9rem;
+    }
+    .milou {
+        display: none;
     }
     .quote {
         font-size: 1.3rem;
