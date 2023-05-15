@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .alcazar{
-    width: 25%;
+    width: 27%;
 }
 
 .alcazar_quote{
@@ -274,6 +274,34 @@ h1, h2, h3, h4, h5, h6{
     font-style: italic;
     text-align: center;
 }
+
+
+
+/* Séraphin Lampion */
+
+
+.character9{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+.rastapopoulos{
+    width: 40%;
+}
+
+.rastapopoulos_prez{
+    padding-left: 2%;
+    text-align: justify;
+}
+
+.rastapopoulos_quote{
+    margin-left: 2%;
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+}
+
 
 
 
@@ -341,7 +369,7 @@ h1, h2, h3, h4, h5, h6{
     .hover_links {
         font-size: 0.9rem;
     }
-    .character1, .character3, .character5, .character7 {
+    .character1, .character3, .character5, .character7, .character9 {
         display: flex;
         flex-wrap: wrap;
     }
@@ -361,6 +389,10 @@ h1, h2, h3, h4, h5, h6{
     }
     .alcazar {
         width: 70%;
+        margin: auto;
+    }
+    .rastapopoulos {
+        width: 80%;
         margin: auto;
     }
     .symbols {
