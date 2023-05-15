@@ -378,8 +378,13 @@ h1, h2, h3, h4, h5, h6{
         display: flex;
         flex-wrap: wrap-reverse;
     }
+    .tintin {
+        width: 70%;
+        margin: auto;
+    }
     .milou, .haddock, .dupondt, .tournesol {
         width: 80%;
+        margin: auto;
     }
     .castafiore {
         width: 90%;
